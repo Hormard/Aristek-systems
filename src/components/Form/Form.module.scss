@@ -1,0 +1,74 @@
+.form {
+  width: 100%;
+  margin-bottom: 16px;
+
+  &__container {
+    width: 100%;
+  }
+
+  &__input {
+    width: 86%;
+    height: 40px;
+    margin-right: 8px;
+    padding: 0;
+    padding-left: 12px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    border: 1px solid #ececec;
+  }
+
+  &__input:focus {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    outline: 1px solid #d1d1d1b2;
+  }
+
+  &__button {
+    width: 50px;
+    height: 40px;
+    color: #fff;
+    background-color: #550dc9;
+    border: none;
+    border-radius: 12%;
+  }
+
+  &__info {
+    display: flex;
+    margin-top: 8px;
+  }
+
+  &__total {
+    padding: 4px;
+    color: #550dc9;
+    font-size: 12px;
+    background-color: #fef6ff;
+  }
+
+  &__toDo {
+    padding: 4px;
+    margin: 0 6px;
+    font-size: 12px;
+    color: #0d9cc9;
+    background-color: #f6fcff;
+  }
+
+  &__completed {
+    padding: 4px;
+    color: #0dc958;
+    font-size: 12px;
+    background-color: #f6fff9;
+  }
+}
+
+@media (max-width: 500px) {
+  .form__input {
+    width: 70%;
+  }
+}
+
+@media (max-width: 376px) {
+  .form__input {
+    width: 71%;
+    font-size: 11px;
+  }
+}
